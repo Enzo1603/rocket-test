@@ -1,3 +1,7 @@
+# Notes 
+
+## Docker & Postgresql
+
 connect to postgresql shell: docker exec -it fe00a0231a23 psql -U username postgr_db;
 
 connect to database: \c;
