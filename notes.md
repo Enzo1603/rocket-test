@@ -2,7 +2,7 @@
 
 ## Docker & Postgresql
 
-connect to postgresql shell: docker exec -it fe00a0231a23 psql -U username postgr_db;
+connect to postgresql shell: docker exec -it 9a327dd3a07f psql -U username postgr_db;
 
 connect to database: \c;
 
@@ -12,4 +12,4 @@ SELECT * FROM ...;
 
 set DATABASE_URL=postgres://username:password@localhost:5432/postgr_db;
 
-(3e3dd4ae-3c37-40c6-aa64-7061f284ce28, John Doe, 18, 1, true)
+(UUID: c33fc4df-1ac0-4b7c-9577-bd9750055d0d, user123, user123@email.com)
