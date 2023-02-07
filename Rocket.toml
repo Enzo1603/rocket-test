@@ -1,6 +1,7 @@
 [default]
-
-[debug.databases.main_connection]
+[default.databases.main_connection]
 url = "postgres://username:password@localhost:5432/postgr_db"
+
+[debug]
 
 [release]
