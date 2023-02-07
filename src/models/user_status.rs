@@ -1,5 +1,5 @@
-use std::fmt;
 use rocket::form::FromFormField;
+use std::fmt;
 
 #[derive(sqlx::Type, Debug, FromFormField)]
 #[repr(i32)]
@@ -16,4 +16,3 @@ impl fmt::Display for UserStatus {
         }
     }
 }
-

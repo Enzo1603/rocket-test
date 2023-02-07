@@ -1,11 +1,11 @@
 #[macro_use]
 extern crate rocket;
 
+use rocket::{Build, Rocket};
+use rocket_db_pools::Database;
 use rocket_test::catchers;
 use rocket_test::fairings::db::DBConnection;
 use rocket_test::routes::{self, post, user};
-use rocket::{Build, Rocket};
-use rocket_db_pools::Database;
 
 #[launch]
 async fn rocket() -> Rocket<Build> {
